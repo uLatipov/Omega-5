@@ -229,7 +229,6 @@ ol {
 
 .subdropdown-list {
     padding: 20px 0;
-    width: 200px;
     background-color: white;
     display: none;
     position: absolute;
@@ -247,7 +246,7 @@ ol {
 }
 
 .subdropdown-link {
-    padding: 10px 27px;
+    padding: 10px 25px;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
@@ -281,7 +280,7 @@ ol {
 }
 
 .header-box {
-    width: 50%;
+    max-width: 50%;
 }
 
 .header-title {
