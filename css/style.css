@@ -18,6 +18,9 @@ ol {
     list-style: none;
 }
 
+a {
+    display: inline-block;
+}
 
 @font-face {
     font-family: 'Circular Std';
@@ -266,17 +269,17 @@ ol {
 
 /* nav  end  */
 
-.header > .container{
+.header>.container {
     padding-top: 200px;
     padding-bottom: 250px;
 }
 
-.header{
-    background:  url("../img/bitmap-header.png"),radial-gradient(100% 100% at 50% 0%, #504A93 0%, #413E65 100%) ;
+.header {
+    background: url("../img/bitmap-header.png"), radial-gradient(100% 100% at 50% 0%, #504A93 0%, #413E65 100%);
     background-repeat: no-repeat;
-    background-position:right -100px top 200px , center;
+    background-position: right -100px top 200px, center;
     background-size: 80%, auto;
-    
+
 }
 
 .header-box {
@@ -319,4 +322,35 @@ ol {
     line-height: 16px;
     letter-spacing: -0.437684px;
     color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* end header  */
+
+
+.second-section-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second-sec-img {
+    max-width: 31px;
+}
+
+.strong-second-section-item {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.750316px;
+    color: #19191B;
+    margin-top: 43px;
+    margin-bottom: 15px;
+}
+
+.text-second-section {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.500211px;
+    color: #696871;
+    max-width: 310px;
 }
