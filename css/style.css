@@ -332,6 +332,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 90px 0;
 }
 
 .second-sec-img {
@@ -353,4 +354,9 @@ a {
     letter-spacing: -0.500211px;
     color: #696871;
     max-width: 310px;
+}
+
+.second-section-item{
+    display: flex;
+    flex-direction: column;
 }
