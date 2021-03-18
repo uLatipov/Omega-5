@@ -360,3 +360,19 @@ a {
     display: flex;
     flex-direction: column;
 }
+
+.mini-section-img{
+    width: auto;
+    filter: grayscale(100%);
+    transition: filter 1s;
+}
+
+.mini-section-img:hover{
+    filter: none;
+}
+
+.mini-section-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
