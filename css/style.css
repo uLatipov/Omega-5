@@ -356,31 +356,77 @@ a {
     max-width: 310px;
 }
 
-.second-section-item{
+.second-section-item {
     display: flex;
     flex-direction: column;
 }
 
-.mini-section-img{
+.mini-section-img {
     width: auto;
     filter: grayscale(100%);
     transition: filter 1s;
 }
 
-.mini-section-img:hover{
+.mini-section-img:hover {
     filter: none;
 }
 
-.mini-section-list{
+.mini-section-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 42px 0;
 }
 
-.bottom-second-section{
+.bottom-second-section {
     border: 1px solid #EAE9F2;
 }
 
 /* end second section  */
 
+
+.easily-title {
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1.87579px;
+    color: #19191B;
+}
+
+.easily-text {
+    font-size: 21px;
+    line-height: 39px;
+    letter-spacing: -0.656526px;
+    color: #696871;
+    margin-bottom: 40px;
+    margin-top: 25px;
+}
+
+.easily-icon {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.easily-item-nam {
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: -0.656526px;
+    color: #19191B;
+    margin-left: 12px;
+}
+
+.easily-item{
+    width: 272px;
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+}
+
+.easily-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.easily-box{
+    width: 50%;
+}
