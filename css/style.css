@@ -384,7 +384,7 @@ a {
 
 /* end second section  */
 
-.easily{
+.easily {
     background-color: #F7F7FB;
     padding: 220px 0;
     background-image: url("../img/bg-easily.png");
@@ -422,20 +422,80 @@ a {
     margin-left: 12px;
 }
 
-.easily-item{
+.easily-item {
     width: 272px;
     margin-top: 20px;
     align-items: center;
     display: flex;
 }
 
-.easily-list{
+.easily-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.easily-box{
+.easily-box {
     width: 50%;
 }
 
+/* end easily section  */
+
+.fits .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fits-app {
+    max-width: 410px;
+    user-select: none;
+}
+
+.fits-box {
+    width: 50%;
+}
+
+.fits-title {
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1.87579px;
+    color: #19191B;
+}
+
+.fits-text {
+    font-size: 21px;
+    line-height: 39px;
+    letter-spacing: -0.656526px;
+    color: #696871;
+    margin-top: 24px;
+    margin-bottom: 15px;
+}
+
+
+.fits-item {
+    display: flex;
+    margin-top: 35px;
+}
+
+.fits-item-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 38px;
+}
+
+.fits-item-name {
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: -0.656526px;
+    color: #19191B;
+}
+
+.fits-item-text {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.500211px;
+    color: #696871;
+    margin-top: 14px;
+    max-width: 320px;
+}
