@@ -441,10 +441,14 @@ a {
 
 /* end easily section  */
 
+.fits{
+    padding-top: 110px;
+    padding-bottom: 140px;
+}
+
 .fits .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .fits-app {
@@ -454,6 +458,7 @@ a {
 
 .fits-box {
     width: 50%;
+    margin-left: 130px;
 }
 
 .fits-title {
