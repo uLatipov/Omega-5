@@ -384,6 +384,14 @@ a {
 
 /* end second section  */
 
+.easily{
+    background-color: #F7F7FB;
+    padding: 220px 0;
+    background-image: url("../img/bg-easily.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 45% auto;
+}
 
 .easily-title {
     font-size: 60px;
