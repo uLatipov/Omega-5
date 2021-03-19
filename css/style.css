@@ -509,6 +509,8 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 95px;
+
 }
 
 .slider-item {
@@ -528,6 +530,8 @@ a {
 .slider-img {
     max-width: 315px;
     height: auto;
+    border-radius: 10px;
+
 }
 
 .slider-item-right {
@@ -639,3 +643,19 @@ a {
 
 }
 
+.item23{
+    background-color:#19191B;
+    color: #fff;
+}
+
+.item23-text{
+    color: #fff;
+}
+
+.item-23-name{
+    color: #fff;
+}
+
+.item22{
+        
+}
