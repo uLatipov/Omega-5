@@ -352,6 +352,33 @@ a {
         justify-content: space-between;
     }
 
+    .header .header-link-trial{
+        display: block;
+    }
+
+    .easily .easily-box{
+        width: 100%;
+    }
+
+    body .header > .container{
+        padding: 50px 0;  
+    }
+
+    body .fits-item-img{
+        margin-bottom: 10px;
+    }
+
+    body .easily {
+        background-color: #F7F7FB;
+        padding: 220px 0;
+        background-image: none;
+    }
+
+    .easily .easily-list{
+        align-items: center;
+        justify-content: center;
+    }
+
     body .container{
         width: 95%;
     }
