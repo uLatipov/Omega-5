@@ -242,8 +242,17 @@
         
     }
 
-    .footer .conatiner .price-list-footer{
+    .footer .container .price-list-footer{
     flex-direction: column;        
+    }
+
+    .footer .prise-item-footer{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .footer .price-item-list{
+        padding: 15px 0 15px 30px;
     }
 
     .footer-nav .footer-nav-mini-list{
