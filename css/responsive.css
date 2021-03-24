@@ -730,3 +730,22 @@
         margin-bottom: 300px;
     }
 }
+
+
+@media (max-width: 780px){
+    .nav .container {
+        max-width: 750px;
+    }
+    .fits .fits-box{
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 740px){
+    .nav .container {
+        max-width: 720px;
+    }
+    .fits .fits-box{
+        margin-left: 40px;
+    }
+}
