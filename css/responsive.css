@@ -666,6 +666,65 @@
     .fits .container .fits-app {
         max-width: 200px;
     }
+    
+    .slider-item{
+        flex-direction: column;
+    }
 
+    .slider-item .quote-blue{
+        margin-top: 20px;
+    }
 
+    .slider__bottom_list{
+        margin-top: 100px;
+    }
+
+    .price-item-list{
+        padding-left: 15px;
+    }
+
+    .prise-item-footer{
+        width: 49%;
+    }
+    
+    .footer-list-nav{
+        flex-direction: column-reverse;
+    }
+
+    .footer-nav .footer-nav-mini-list{
+        display: flex;
+        flex-direction: row;
+        margin-top: 0;
+    }
+
+    .footer-nav .footer-nav-item{
+        display: flex;
+            align-items: center ;
+    }
+
+    .footer-nav .footer-mini-list-link{
+        margin: 0 15px;
+    }
+
+    .footer-nav-mini-list-blue{
+        display: flex;
+    }
+
+    .footer-nav .footer-nav-mini-list-blue-link{
+        margin: 0 15px;
+    }
+
+    .footer-nav .footer-info-item{
+        margin-top: 30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-nav .footer-social-link{
+        justify-content: center;
+        text-align: center;
+    }
+    .footer-nav .footer-social-link-itm{
+        display: inline-block;
+    }
 }
